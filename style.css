@@ -3,24 +3,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap');
 
 body {
-    color: #FCFAEE;
     font-family: "Lora", serif;
+    
 }
 .header{
-   background-color: white;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content:space-between;
     font-family: "Lora", serif;
+    padding: 10px 20px;
    
 }
 .header img {
     margin-right: 0px;
+    height: 50px;
+    width: 50px;
 }
 
 .header h2 {
     font-family: "Dancing Script", cursive ;
-    font-size: 40px;
+    font-size: 30px;
     flex-grow: 1; 
     margin: 0;
     color: #22333A;
@@ -36,4 +39,60 @@ body {
 .header a:hover {
     text-decoration: underline;
     color: crimson;
+}
+
+section {
+    
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    color: black;
+    margin: auto;
+    box-shadow: 5px 5px 10px  rgb(97, 96, 96);
+    z-index: 1; 
+    position: absolute;
+    top: 350px; 
+    left: 400px;
+    
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+.texto, p {
+    font-family: "Lora", serif;
+   
+    text-align: center;
+    
+}
+.texto{
+    color: #22333A;
+    font-weight: bold; 
+}
+.botao {
+    
+    margin-bottom: 10px;
+    font-family: "Lora", serif;
+    border-radius: 5px;
+    border: 0px;
+    color: #353535;
+    background-color: #D9D9D9;
+    height: 40px;
+    width: 350px;
+    margin-left: 60px;
+  
+}
+.buscar{
+    font-family: "Lora", serif;
+    background-color: #F3F3F3;
+    border: 0px;
+    font-weight: bold;
+    margin-top: 10px; 
+    margin-left: 190px;
+    color: #384B70;
+    
+    
 }
