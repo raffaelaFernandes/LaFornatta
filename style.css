@@ -30,14 +30,18 @@ body {
 }
 
 .header a {
-    font-size:20px;
-    margin-left: 15px; 
+    font-size: 18px;
+    margin-left: 15px;
     text-decoration: none;
     color: black;
+    padding-right: 15px; 
+    border-right: 1px solid #000000; 
 }
 
+.header a:last-child {
+    border-right: none; 
+}
 .header a:hover {
-    text-decoration: underline;
     color: crimson;
 }
 
@@ -51,15 +55,18 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px  rgb(97, 96, 96);
     z-index: 1; 
-    position: absolute;
-    top: 350px; 
-    left: 400px;
+    margin-top: -90px;
+    position: relative;
+   
     
 }
 
 footer {
+    
     text-align: center;
     font-style: italic;
+    background-color: #22333A;
+    margin-top: 150px;
 }
 
 .texto, p {
@@ -95,4 +102,83 @@ footer {
     color: #384B70;
     
     
+}
+
+.buscar:hover{
+    color: rgb(153, 153, 153);
+}
+
+/* MENU */
+menu {
+    background-color: #EEF4FC;
+}
+
+.divisao {
+    border: 0;             
+    height: 2px;            
+    background-color: #22333A;
+    margin: 0;               
+    width: 100%;            
+    margin-bottom: 20px;     
+}
+
+.Cardapio {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 5px 5px 10px rgb(97, 96, 96);
+    position: relative;
+}
+.tamPizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pizzas {
+    font-weight: bold;
+    color: #22333A;
+}
+
+.preco {
+    font-weight: bold;
+    color: black;
+}
+
+.sabores {
+    color: #22333A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.desc {
+    width: 330px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.controlaLinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.linhaVertical {
+    border-left: 2px solid #000000; 
+    height: 100%; 
+    margin: 0 20px;  
 }
